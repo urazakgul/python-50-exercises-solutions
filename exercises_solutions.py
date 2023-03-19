@@ -572,7 +572,7 @@ desired_vowel = "o"
 new_text = replace_vowels(text, desired_vowel)
 print(new_text)
 
-# 49. Verilen kelimedeki harflerin alfabedeki sıralarını yazdıran bir program yaz (Write a program that prints the alphabetical positions of the letters in a given word).
+# 49. Verilen kelimedeki harflerin alfabedeki sıralarını yazdıran bir program yazın (Write a program that prints the alphabetical positions of the letters in a given word).
 
 word = "Internet"
 
@@ -584,7 +584,7 @@ for letter in word:
 
     print(f"{letter}: {position}")
 
-# 50. Verilen bir cümlede bazı harflerin yerine * işaretini koyacak bir program yaz (Write a program that will place * marks in place of some letters in a given sentence).
+# 50. Verilen bir cümlede bazı harflerin yerine * işaretini koyacak bir program yazın (Write a program that will place * marks in place of some letters in a given sentence).
 
 def replace_letters(sentence, letters):
     new_sentence = ""
