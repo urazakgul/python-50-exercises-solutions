@@ -332,7 +332,7 @@ total, avg = calculate_sum_avg(my_list)
 print("Sum:", total)
 print("Average:", avg)
 
-# 31. Verilen bir metindeki en uzun kelimeyi bulan bir program yazın (Write a program that finds the longest word in a given text using a function).
+# 31. Verilen bir metindeki en uzun kelimeyi bulan bir program yazın (Write a program that finds the longest word in a given text).
 
 def find_longest_words(text):
     words = text.split()
@@ -344,7 +344,7 @@ my_text = "One two three four five six seven eight nine"
 longest_word = find_longest_words(my_text)
 print("Longest word(s):", longest_word)
 
-# 32. Verilen bir sayıdan küçük veya eşit olan tüm asal sayıları listeleyen bir program yazın (Write a program that lists all prime numbers less than or equal to a given number using a function).
+# 32. Verilen bir sayıdan küçük veya eşit olan tüm asal sayıları listeleyen bir program yazın (Write a program that lists all prime numbers less than or equal to a given number).
 
 def is_prime(num):
     if num <= 1:
